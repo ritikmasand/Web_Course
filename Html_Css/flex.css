@@ -1,0 +1,18 @@
+.parent {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* align-items:start; */
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  border: 2px solid red;
+  flex-wrap: wrap;
+   gap: 4px;
+}
+.child {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  padding: 16px;
+  /* margin: 4px; */
+}

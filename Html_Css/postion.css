@@ -1,0 +1,30 @@
+.box {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 2px solid red;
+  margin: 8px;
+  padding: 4px;
+}
+.container {
+  border: 2px solid black;
+  height: 160vh;
+  background-color: bisque;
+  top: 3px;
+  position: relative;
+}
+
+#box2 {
+  position: sticky;
+  top: 4px;
+  /* background-color: aquamarine;
+  bottom: 500px; */
+  /* left: 450px; */
+}
+#box3 {
+  position: sticky;
+}
+/* * {
+  margin: 0px;
+  padding: 0px;
+} */

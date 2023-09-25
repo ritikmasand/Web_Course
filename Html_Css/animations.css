@@ -1,0 +1,71 @@
+.div {
+  height: 100px;
+  width: 300px;
+  border: 2px solid black;
+  /* animation-timing-function: ; */
+}
+#div1 {
+  animation-name: divchangecolor;
+  background-color: aqua;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease;
+}
+#div2 {
+  animation-name: divchangecolor;
+  background-color: aqua;
+  animation-duration: 8s;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+#div3 {
+  animation-name: divchangecolor;
+  background-color: aqua;
+  animation-duration: 8s;
+  animation-iteration-count: 4;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+}
+#div4 {
+  animation-name: divchangecolor;
+  background-color: aqua;
+  animation-duration: 8s;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+#div5 {
+  animation-name: divchangecolor;
+  background-color: aqua;
+  animation-duration: 8s;
+  animation-iteration-count: 4;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+}
+@keyframes divchangecolor {
+  0% {
+    background-color: aqua;
+    width: 100px;
+    border: 2px solid red;
+  }
+  /* // 2s  */
+  25% {
+    background-color: blue;
+    width: 200px;
+    border: 2px solid violet;
+  }
+  /* 2-4 secs */
+  50% {
+    background-color: green;
+    width: 300px;
+    border: 2px solid rgb(0, 255, 183);
+  }
+  /* 4-6 secs */
+  100% {
+    background-color: yellow;
+    width: 400px;
+  }
+  /* 6-8  */
+}

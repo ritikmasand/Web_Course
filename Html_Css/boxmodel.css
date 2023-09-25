@@ -1,0 +1,16 @@
+.letsupgrad {
+  border: 2px solid red;
+  padding: 16px;
+  margin: 16px;
+  font-weight: bold;
+}
+.spanclass {
+  border: 3px solid black;
+  margin-bottom: 26px;
+  padding: 36px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  color: cyan;
+  text-align: justify;
+  border-radius:16px
+}
