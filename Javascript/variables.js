@@ -106,9 +106,9 @@
 //   console.log("we are outside");
 // }
 
-var a = 10;
-var b = 20;
-var c =30;
+// var a = 10;
+// var b = 20;
+// var c =30;
 // if (a < b) {
 //   console.log("a is less than b");
 // } else {
@@ -116,4 +116,4 @@ var c =30;
 // }
 
 
-a<b ? c<b ? console.log('c is greater') : console.log('a is greater') : console.log('outside');
+// a<b ? c<b ? console.log('c is greater') : console.log('a is greater') : console.log('outside');
