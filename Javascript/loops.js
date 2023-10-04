@@ -117,3 +117,13 @@
 // 5 ('rajat')
 
 // 5 6 7 8 9 (imran)
+
+// (function() {
+//   console.log("this is a function");
+// })();
+
+// anonymous 
+
+// iife
+
+// Immediate invoking function expression
