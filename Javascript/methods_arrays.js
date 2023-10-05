@@ -134,21 +134,21 @@
 
 // join method
 
-let arr2 = ["one", "two", "three", "four"];
+// let arr2 = ["one", "two", "three", "four"];
 // console.log(arr2.join(" "));
 
 // push
 
-arr2.push("five");
+// arr2.push("five");
 
-// pop
+// // pop
 
-arr2.pop();
+// arr2.pop();
 // console.log(arr2);
 
 // splice
 
-let arr5 = ["jan", "feb", "mar", "april"];
+// let arr5 = ["jan", "feb", "mar", "april"];
 
 // arr5.splice(0, 1, "dec");
 
@@ -157,4 +157,5 @@ let arr5 = ["jan", "feb", "mar", "april"];
 // slice
 // console.log(arr5);
 
-console.log(arr5.slice(3));
+// console.log(arr5.slice(3));
+// ritik
