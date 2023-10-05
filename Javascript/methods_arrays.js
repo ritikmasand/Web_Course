@@ -47,7 +47,7 @@
 
 // for-each
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // arr.forEach((element , index) => {
 //   console.log(element , index);
@@ -118,17 +118,43 @@ const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // reverse
 
-const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-// console.log(arr.reverse())
+// // console.log(arr.reverse())
 
-// find
+// // find
 
-console.log(
-  arr1.find((elem) => {
-    return elem % 2 == 0;
-  })
-);
-
+// console.log(
+//   arr1.find((elem) => {
+//     return elem % 2 == 0;
+//   })
+// );
 
 // findindex
+
+// join method
+
+let arr2 = ["one", "two", "three", "four"];
+// console.log(arr2.join(" "));
+
+// push
+
+arr2.push("five");
+
+// pop
+
+arr2.pop();
+// console.log(arr2);
+
+// splice
+
+let arr5 = ["jan", "feb", "mar", "april"];
+
+// arr5.splice(0, 1, "dec");
+
+// [dec , feb , mar , april]
+
+// slice
+// console.log(arr5);
+
+console.log(arr5.slice(3));

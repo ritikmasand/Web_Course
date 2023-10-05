@@ -1,12 +1,12 @@
 let arr1 = ["one", "two", "three", "four"];
-let a = arr1[0];
-let b = arr1[1];
-let c = arr1[2];
-let d = arr1[3];
+// let a = arr1[0];
+// let b = arr1[1];
+// let c = arr1[2];
+// let d = arr1[3];
 
 // destrucuting // spread
 // console.log(arr1);
-const [e, f, g, h] = arr1;
+// const [e, f, g, h] = arr1;
 
 // console.log(e, f, g, h);
 
@@ -18,8 +18,8 @@ const [e, f, g, h] = arr1;
 // const [e, f, ...g] = arr1;
 // console.log(e, f, g);
 
-let num1 = 10;
-let num2 = 20;
+// let num1 = 10;
+// let num2 = 20;
 
 // swap
 
@@ -36,7 +36,7 @@ let num2 = 20;
 // approach 2 , optimized ✅
 
 // v.v imp interive ques
-[num2, num1] = [num1, num2];
+// [num2, num1] = [num1, num2];
 
 // console.log(num1);
 // console.log(num2);
@@ -58,8 +58,8 @@ let num2 = 20;
 // const arr5 = [...arr3, 4, 5, ...arr4]; // spread
 // console.log(arr5);
 
-const str1 = "hello";
-const str2 = "world";
+// const str1 = "hello";
+// const str2 = "world";
 
 // approach 1
 // const str3 = str1.concat(str2);
@@ -67,5 +67,5 @@ const str2 = "world";
 
 // approach 2
 // spread
-console.log({...str1, ...str2});
-// join method 
+// console.log({...str1, ...str2});
+
