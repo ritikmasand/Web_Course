@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+  </head>
+  <body>
+    <p id="demo">0</p>
+    <button onclick="mystart()">Start</button>
+    <button onclick="mystop()">Stop</button>
+    <button onclick="myreset()">Reset</button>
+
+    <script>
+      let i = 0;
+      let myInterval;
+
+      function myTimer() {
+        document.getElementById("demo").innerHTML = i;
+        i++;
+      }
+
+      function mystart() {
+        myInterval = setInterval(myTimer, 1000);
+      }
+
+      function mystop() {
+        clearInterval(myInterval);
+      }
+
+      function myreset() {
+        clearInterval(myInterval);
+        i = 0;
+        document.getElementById("demo").innerHTML = i;
+      }
+    </script>
+  </body>
+</html>

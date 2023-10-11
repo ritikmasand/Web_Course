@@ -37,6 +37,7 @@ elements[1].addEventListener("click", () => {
     console.log(elem);
     elem.style.backgroundColor = "red";
     elem.style.padding = "20px";
+    // elem.style.visiblity = 'visible'
   });
 });
 
