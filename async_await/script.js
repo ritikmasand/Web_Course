@@ -22,3 +22,13 @@ btn.addEventListener("click", async () => {
     console.log("error loading the data !! OOPS 404!!!");
   }
 });
+const obj = {
+  name: "Ritik",
+  age: "24",
+  hoobby: "cricket",
+};
+
+console.log(JSON.stringify(obj));
+
+const obj1 = '{"name":"Ritik","age":"24","hoobby":"cricket"}'
+console.log(JSON.parse(obj1))
