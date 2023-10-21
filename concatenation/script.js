@@ -134,15 +134,64 @@
 // const str = `Your OTP for transaction for ${amount} Rupees with Card Number ending XX${cardNumber} is ${otp}`;
 // console.log(str);
 
-const my_fname = "Imran";
-const my_lname = "Hashmi";
-const my_role = "educator";
+// const my_fname = "Imran";
+// const my_lname = "Hashmi";
+// const my_role = "educator";
 
 // hello my name is <my_fname> <my_lname> and i am a <my_role>
 
+// Q : You have to print the above statement with the details. Note : You cannot use string concatenation .
 
-// Q : You have to print the above statement with the details. Note : You cannot use string concatenation .  
+const products = [
+  { product2: "banana", price: 69 },
+  { product2: "mango", price: " " },
+  { product2: "watermelon", price: 49 },
+  { product2: "apples", price: " " },
+  { product2: "guavava", price: 90 },
+  { product2: "Pineapple", price: 110 },
+];
 
+// const filteredlist1 = products
+//   .filter((elem) => {
+//     if (elem.price == " ") {
+//       return false;
+//     } else return true;
+//   })
+//   .map((fruit) => {
+//     return fruit.product2;
+//   });
 
+// console.log(filteredlist1);
 
+//
+// const filteredlist2 = products
+//   .filter((elem) => {
+//     if (typeof elem.price == "number") {
+//       return true;
+//     } else return false;
+//   })
+//   .map((elem1) => {
+//     elem1.product2;
+//   });
+// console.log(filteredlist2);
 
+const str = "Humpty dumpty sat on a wall and had a great fall";
+// output = Humpty Dumpty Sat On A Wall And Had A Great Fall
+
+let word_arr = str.split(" ");
+console.log(word_arr);
+
+word_arr = word_arr.map((elem) => {
+  console.log(elem);
+  return elem[0].toUpperCase() + elem.substring(1);
+});
+const result = word_arr.join(" ");
+//   console.log(result);
+
+// arr = [Humpty]
+
+// arr[0] =
+
+console.log(word_arr[0].toUpperCase());
+
+// Humpty Dumpty Sat
