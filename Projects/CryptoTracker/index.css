@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  height: 50px;
+  /* border: 2px solid; */
+}
+#logo {
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+  /* border: 2px solid; */
+  text-decoration: none;
+}
+#logo_container {
+  display: flex;
+  align-items: center;
+}
+#Search {
+  background-color: #fcc62d;
+  height: 30px;
+  border-radius: 7px;
+  cursor: pointer;
+  border: 2px solid;
+  transition: all ease-in 0.05s;
+}
+#Search:hover {
+  background-color: white;
+  border: 2px solid #fcc62d;
+}
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+}
+#main_image {
+  height: 60vh;
+  width: 75vw;
+  border-radius: 5px;
+}
+#heading_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#trending_coins_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.trending_coin_slideshow {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 6px;
+  gap: 8px;
+  width: 100%;
+  /* border: 2px solid red; */
+  /* height: 100vh; */
+  /* overflow-x: hidden; */
+}
+#trending_coins_containerr {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* height: 150px; */
+  gap: 8px;
+  background-color: #e5e5e5;
+  padding-top: 20px;
+  /* border: 2px solid #fcc62d; */
+}
+#trending_coins_container {
+  display: flex;
+  /* border: 2px solid; */
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 8px;
+}
+#trending_coin_image {
+  height: 50px;
+  width: 50px;
+}
+#trending_coins_container {
+  font-size: medium;
+  font-size: medium;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+#coin_info_container {
+  text-align: center;
+}
+.trending_coins_heading {
+  font-size: 40px;
+  font-weight: bold;
+  /* border: 2px solid; */
+  margin-bottom: 15px;
+  color: #fcc62d;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
