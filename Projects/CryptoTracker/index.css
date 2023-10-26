@@ -61,7 +61,7 @@ body {
   flex-direction: column;
 }
 
-.trending_coin_slideshow {
+#trending_coin_slideshow {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -198,8 +198,49 @@ input[type="text"] {
   /* border: 2px solid; */
   font-size: small;
 }
-#serial_number ,#coins_container_name {
+#serial_number,
+#coins_container_name {
   /* border: 2px solid red; */
   font-size: medium;
   /* background-color: #fcc62d; */
+}
+#MoreInfo {
+  background-color: #fcc62d;
+  height: 30px;
+  border-radius: 7px;
+  cursor: pointer;
+  border: 2px solid;
+  transition: all ease-in 0.1s;
+}
+#MoreInfo:hover {
+  transform: scale(1.1);
+  border: none;
+}
+#coin_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid; */
+  padding-left: 6rem;
+  padding-right: 5rem;
+}
+#coins_price {
+  display: flex;
+  /* border: 2px solid; */
+  justify-content: space-around;
+  gap: 16px;
+  align-items: center;
+  /* width: 50vw; */
+  margin-top: 8px;
+}
+
+#coin_description {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid; */
+  margin-top: 16px;
+  /* text-align: center; */
+  align-items: center;
+  gap: 16px;
 }
